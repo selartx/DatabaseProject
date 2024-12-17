@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #000000;
+  }
+  header {
+	background-color: #000000;
+	color: white;
+	padding: 1rem;
+	text-align: center;
+  }
+  nav {
+	background-color: #000000;
+	overflow: hidden;
+  }
+  nav a {
+	float: left;
+	display: block;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+  }
+  nav a:hover {
+	background-color: #000000;
+  }
+  .hero {
+	text-align: center;
+	padding: 50px;
+	
+	background:black;
+  }
+  .hero h1 {
+	font-size: 3rem;
+	color: #3e4ba0;
+	background: black;
+  }
+  .container {
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+	background: rgb(0, 4, 40);
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	color:white;
+  }
+  .grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
+	
+  }
+  .card {
+	background: rgb(0, 7, 66);
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(13, 2, 58, 0.1);
+	text-align: center;
+	color:white;
+  }
+  .card h3 {
+	margin: 0;
+	color: #3e4ba0;
+  }
+  .card button {
+	margin-top: 10px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #5c67f2;
+	color: white;
+	cursor: pointer;
+  }
+  .card button:hover {
+	background-color: #3e4ba0;
+  }
+  footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #3e4ba0;
+	color: white;
+	margin-top: 20px;
+  }

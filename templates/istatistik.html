@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/stiller.css">
+    <title>Hayvan Arama</title>
+</head>
+<body>
+    <nav>
+        <a href="index">Ana Sayfa</a>
+        <a href="arama">Arama</a>
+        <a href="ekleme">Veri Ekle</a>
+        <a href="guncelleme">Güncelleme</a>
+        <a href="silme">Silme</a>
+      </nav>
+
+    <h1>İstatistikler</h1>
+
+
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Ziyaretçi Türü</th>
+            <th>Toplam Sayı</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for ziyaretci in ziyaretci_istatistikleri %}
+            <tr>
+              <td>{{ ziyaretci[0] }}</td>
+              <td>{{ ziyaretci[1] }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+</body>
+</html>
